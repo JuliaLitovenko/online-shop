@@ -146,7 +146,7 @@ class CartController
                     // Если заказ успешно сохранен
                     // Оповещаем администратора о новом заказе по почте                
                     $adminEmail = 'julia.litovenko@gmail.com';
-                    $message = '<a href="http://todo.project/admin/orders">Список заказов</a>';
+                    $message = '<a href="http://cb.adr.com.ua/admin/order">Список заказов</a>';
                     $subject = 'Новый заказ!';
                     mail($adminEmail, $subject, $message);
 
